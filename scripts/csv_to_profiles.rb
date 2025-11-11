@@ -21,32 +21,50 @@ def csv_to_profiles
   # Create profiles directory if it doesn't exist
   Dir.mkdir(profiles_dir) unless Dir.exist?(profiles_dir)
   
-  # Submission,Status,Name1,Name2,Email1,Institution,Title,Field,Topics,Abstract,Desired,Comments1,Special,Other,Comments2^M
-
   # Read CSV and create profile pages
   CSV.foreach(csv_file, headers: true) do |row|
-    name = "#{row['Name1']}_#{row['Name2']}"
+    first_name = row['First/Given Names (first)']
+    last_name = row['Last/Family Name (first)']
+    name = "#{first_name}_#{last_name}"
     next if name.nil? || name.strip.empty?
     
     slug = slugify(name)
     filename = "#{profiles_dir}/#{slug}.md"
     
+    # Prepare image path based on person's name
+    # Replace spaces with underscores for filename
+    clean_first = first_name.downcase.strip.gsub(/\s+/, '_')
+    clean_last = last_name.downcase.strip.gsub(/\s+/, '_')
+    image_filename = "#{clean_first}_#{clean_last}.jpg"
+    
+    # Only set image path if file exists
+    image_file_path = "assets/students_fac_pictures/#{image_filename}"
+    image_path = File.exist?(image_file_path) ? "/assets/students_fac_pictures/#{image_filename}" : nil
+    
     # Prepare front matter
     front_matter = {
       'layout' => 'profile',
-      'name' => "#{row['Name1']} #{row['Name2']}",
-      'organization' => row['Institution'],
-      'title' => row['Title'],
-      'field' => row['Field'],
-      'topics' => row['Topics'],
-      'status' => row['Status'],
-      'abstract' => row['Abstract'],
-      'desired' => row['Desired'],
-      'email' => row['Email1'],
-      'image' => row['image'],
-      'linkedin' => row['linkedin'],
-      'github' => row['github'],
-      'website' => row['website']
+      'submission' => row['Submission'],
+      'name' => "#{first_name} #{last_name}",
+      'email' => row['Email (first)'],
+      'institution' => row['Institution'],
+      'department' => row['Department'],
+      'pronouns' => row['Pronouns'],
+      'biography' => row['Biography (Maximum 200 words)'],
+      'image' => image_path,
+      'linkedin' => row['Link to LinkedIn Profile'],
+      'website' => row['Your web page url'],
+      'status' => row['Status (This Stage)'],
+      'academic_status' => row['Academic Status'],
+      'year' => row['Year in program'],
+      'research_areas' => row['Research Area/Department (check as many as appropriate)'],
+      'major' => row['Major/Specialty'],
+      'degrees' => row['Degrees Earned or in Progress (Degree/Field/Year)'],
+      'coursework' => row['What courses or academic preparation have you completed to prepare for a summer internship experience (we recommend at least two science or computer science classes)?'],
+      'has_published' => row['Have you published any research or worked on research/technical projects (not a requirement)?'],
+      'publications' => row['Where has your research been published or where have you conducted research/technical projects? Please include a few references, if available.'],
+      'research_interests' => row['Please describe your research/academic interests.'],
+      'topical_areas' => row['Please select all the topical areas that apply to your field of study:']
     }
     
     # Remove empty fields
@@ -55,15 +73,7 @@ def csv_to_profiles
     # Create the profile page content
     content = "---\n"
     content += front_matter.to_yaml.gsub(/^---\n/, '')
-    content += "---\n\n"
-    content += "## Additional Information\n\n"
-    content += "Add additional details about #{name} here using markdown.\n\n"
-    content += "### Skills & Expertise\n\n"
-    content += "- Add relevant skills\n"
-    content += "- Add areas of expertise\n"
-    content += "- Add specializations\n\n"
-    content += "### Recent Work\n\n"
-    content += "Describe recent projects, publications, or achievements.\n"
+    content += "---\n"
     
     # Write the file
     File.write(filename, content)

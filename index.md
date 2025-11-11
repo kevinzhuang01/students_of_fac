@@ -3,12 +3,6 @@ layout: default
 title: SHI Collaboration Profiles
 ---
 
-# {{ site.title }}
-
-Welcome to the Sustainable Horizons Institute collaboration profiles. Here you can find information about our collaborators, researchers, and contributors.
-
-## Our Collaborators
-
 <div class="profiles-grid">
 {% assign profiles_sorted = site.profiles | sort: 'name' %}
 {% for profile in profiles_sorted %}
@@ -23,14 +17,10 @@ Welcome to the Sustainable Horizons Institute collaboration profiles. Here you c
     
     <div class="profile-card-content">
       <h3><a href="{{ profile.url | relative_url }}">{{ profile.name }}</a></h3>
-      <p class="profile-card-title">{{ profile.title }}</p>
-      <p class="profile-card-org">{{ profile.organization }}</p>
-      <p class="profile-card-bio">{{ profile.bio | truncate: 120 }}</p>
+      <p class="profile-card-title">{{ profile.institution }}</p>
+      <p class="profile-card-bio">{{ profile.biography | truncate: 150 }}</p>
       
       <div class="profile-card-links">
-        {% if profile.email %}
-          <a href="mailto:{{ profile.email }}" title="Email {{ profile.name }}">📧</a>
-        {% endif %}
         {% if profile.linkedin %}
           <a href="{{ profile.linkedin }}" target="_blank" title="LinkedIn Profile">💼</a>
         {% endif %}
@@ -45,15 +35,3 @@ Welcome to the Sustainable Horizons Institute collaboration profiles. Here you c
   </div>
 {% endfor %}
 </div>
-
-## About This Site
-
-This site is built with Jekyll and uses CSV data to automatically generate profile pages for each collaborator. The profiles are updated automatically when the CSV data file is modified.
-
-### Features
-
-- **Responsive Design**: Works on desktop and mobile devices
-- **CSV-Driven**: Profile data is managed in a simple CSV file
-- **GitHub Pages Compatible**: Automatically deploys with GitHub Pages
-- **SEO Friendly**: Includes meta tags and structured data
-- **Primer Theme**: Uses GitHub's Primer design system

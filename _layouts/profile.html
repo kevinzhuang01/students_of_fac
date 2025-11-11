@@ -14,19 +14,20 @@ layout: default
     
     <div class="profile-info">
       <h1>{{ page.name }}</h1>
-      <h2>{{ page.title }}</h2>
-      <h3>Status: {{ page.status }}</h3>
-      <h3>{{ page.organization }}</h3>
-      <h3>{{ page.field }}</h3>
-      <h3>{{ page.topics }}</h3>
+      
+      {% if page.pronouns %}
+        <p class="pronouns">{{ page.pronouns }}</p>
+      {% endif %}
+      
+      {% if page.institution %}
+        <p class="institution"><strong>{{ page.institution }}</strong></p>
+      {% endif %}
+      
+      {% if page.department %}
+        <p class="department">{{ page.department }}</p>
+      {% endif %}
       
       <div class="profile-links">
-        {% if page.email %}
-          <a href="mailto:{{ page.email }}" class="profile-link email">
-            📧 Email
-          </a>
-        {% endif %}
-        
         {% if page.linkedin %}
           <a href="{{ page.linkedin }}" class="profile-link linkedin" target="_blank">
             💼 LinkedIn
@@ -48,16 +49,65 @@ layout: default
     </div>
   </div>
   
-  <div class="profile-bio">
-    <h3>Abstract</h3>
-    <p>{{ page.abstract }}</p>
-    <h3>Desired Skils</h3>
-    <p>{{ page.desired }}</p>
+  {% if page.biography %}
+  <div class="profile-section">
+    <h3>Biography</h3>
+    <p>{{ page.biography }}</p>
   </div>
-
-  <div class="profile-content">
-    {{ content }}
+  {% endif %}
+  
+  {% if page.academic_status or page.year %}
+  <div class="profile-section">
+    <h3>Academic Information</h3>
+    {% if page.academic_status %}
+      <p><strong>Status:</strong> {{ page.academic_status }}</p>
+    {% endif %}
+    {% if page.year %}
+      <p><strong>Year in Program:</strong> {{ page.year }}</p>
+    {% endif %}
+    {% if page.major %}
+      <p><strong>Major/Specialty:</strong> {{ page.major }}</p>
+    {% endif %}
+    {% if page.degrees %}
+      <p><strong>Degrees:</strong> {{ page.degrees }}</p>
+    {% endif %}
   </div>
+  {% endif %}
+  
+  {% if page.research_areas %}
+  <div class="profile-section">
+    <h3>Research Areas</h3>
+    <p>{{ page.research_areas }}</p>
+  </div>
+  {% endif %}
+  
+  {% if page.research_interests %}
+  <div class="profile-section">
+    <h3>Research Interests</h3>
+    <p>{{ page.research_interests }}</p>
+  </div>
+  {% endif %}
+  
+  {% if page.topical_areas %}
+  <div class="profile-section">
+    <h3>Topical Areas</h3>
+    <p>{{ page.topical_areas }}</p>
+  </div>
+  {% endif %}
+  
+  {% if page.coursework %}
+  <div class="profile-section">
+    <h3>Relevant Coursework</h3>
+    <p>{{ page.coursework }}</p>
+  </div>
+  {% endif %}
+  
+  {% if page.has_published == "Yes" and page.publications %}
+  <div class="profile-section">
+    <h3>Publications & Research Projects</h3>
+    <p>{{ page.publications }}</p>
+  </div>
+  {% endif %}
   
   <div class="profile-navigation">
     <a href="{{ '/' | relative_url }}" class="back-link">← Back to All Profiles</a>
