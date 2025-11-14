@@ -47,4 +47,8 @@ topical_areas: Agriculture, Forestry, and Fisheries; Applied Computer Science; A
   Intelligence and Intelligent Systems; Climate and Global Dynamics; Electrical, Electronic,
   and Information Engineering; Environmental Engineering; Other Engineering and Technologies;
   Visualization and Human-Computer Systems
+faculty:
+- name: Liwen Shih
+  slug: liwen-shih
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/liwen-shih/
 ---

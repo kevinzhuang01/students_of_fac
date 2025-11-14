@@ -28,4 +28,8 @@ publications: 'I conducted research remotely through Binghamton University under
 research_interests: I am interested in applied mathematics and macroeconomics. I am
   also interested in furthering my research on cardiac health and modeling.
 topical_areas: Applied Mathematics; Economics and Business
+faculty:
+- name: Changqing Cheng
+  slug: changqing-cheng
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/changqing-cheng/
 ---

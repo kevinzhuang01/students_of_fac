@@ -45,4 +45,8 @@ research_interests: My research and academic interests lie at the intersection o
   model.
 topical_areas: Applied Computer Science; Applied Mathematics; Clinical Medicine; Informatics,
   Analytics and Information Science; Statistics and Probability
+faculty:
+- name: Michael Pokojovy
+  slug: michael-pokojovy
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/michael-pokojovy/
 ---

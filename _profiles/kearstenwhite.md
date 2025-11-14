@@ -20,4 +20,8 @@ has_published: 'No'
 research_interests: I am interested in the aerospace industry, but I am open to any
   ideas that will allow me to expand my knowledge and develop new interests.
 topical_areas: Applied Mathematics; Mechanical Engineering
+faculty:
+- name: Ovais Khan
+  slug: ovais-khan
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/ovais-khan/
 ---

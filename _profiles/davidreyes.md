@@ -61,4 +61,8 @@ topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent
   Basic Medicine; Cell Biology; Computer Science; Environmental Biology; Environmental
   Biotechnology; Health Sciences; Informatics, Analytics and Information Science;
   Training
+faculty:
+- name: Naw Safrin Sattar
+  slug: naw-safrin-sattar
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/naw-safrin-sattar/
 ---

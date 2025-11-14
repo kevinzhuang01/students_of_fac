@@ -58,4 +58,8 @@ topical_areas: Applied Computer Science; Applied Mathematics; Artificial Intelli
   and Intelligent Systems; Clinical Medicine; Computer Science; Educational Sciences;
   Health Sciences; Media and communications; Psychology Sociology; Visualization and
   Human-Computer Systems
+faculty:
+- name: Mustafa Al Lail
+  slug: mustafa-al-lail
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/mustafa-al-lail/
 ---

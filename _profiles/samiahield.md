@@ -35,4 +35,8 @@ research_interests: I am interested in computer science and technology, especial
 topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent Systems;
   Computer Science; Economics and Business; Media and communications; Other Computer
   and Information Sciences
+faculty:
+- name: Suzan Anwar
+  slug: suzan-anwar
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/suzan-anwar/
 ---

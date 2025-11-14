@@ -41,4 +41,8 @@ research_interests: I truly wish to do research into how to bridge the gap betwe
   Allowing people, creativity and technical skills, using AI to speed up the process
   of creating interactive experiences worldwide.
 topical_areas: Applied Computer Science; Political Science
+faculty:
+- name: MD Kabir
+  slug: md-kabir
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/md-kabir/
 ---

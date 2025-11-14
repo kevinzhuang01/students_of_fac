@@ -56,4 +56,8 @@ research_interests: My research interests lie in robust multimodal retrieval, as
   to the audio domain.
 topical_areas: Artificial Intelligence and Intelligent Systems; Computer Science;
   Performance Evaluation and Benchmarking
+faculty:
+- name: Tejas Gokhale
+  slug: tejas-gokhale
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/tejas-gokhale/
 ---

@@ -46,4 +46,8 @@ research_interests: 'My research focuses on autonomous robotic systems that can 
 topical_areas: Computer Science; Electrical, Electronic, and Information Engineering;
   Mechanical Engineering; Other Computer and Information Sciences; Other Engineering
   and Technologies; Training; Visualization and Human-Computer Systems
+faculty:
+- name: Bogdan Gavrea
+  slug: bogdan-gavrea
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/bogdan-gavrea/
 ---

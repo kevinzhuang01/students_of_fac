@@ -20,4 +20,8 @@ coursework: Physics I & II, Calculus III, and Engineering Dynamics. Currently ta
 has_published: 'No'
 research_interests: Aerospace, modeling, and simulation.
 topical_areas: Mechanical Engineering
+faculty:
+- name: Ovais Khan
+  slug: ovais-khan
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/ovais-khan/
 ---

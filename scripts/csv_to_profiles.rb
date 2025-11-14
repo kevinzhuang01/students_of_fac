@@ -9,6 +9,25 @@ def slugify(text)
   text.to_s.downcase.strip.gsub(/[^a-z0-9\s-]/, '').gsub(/\s+/, '-').gsub(/-+/, '-')
 end
 
+def slugify_faculty(name)
+  name.to_s.downcase.strip.gsub(/[^a-z0-9\s-]/, '').gsub(/\s+/, '-').gsub(/-+/, '-')
+end
+
+def process_faculty(faculty_string)
+  return [] if faculty_string.nil? || faculty_string.strip.empty?
+  
+  faculty_names = faculty_string.split(',').map(&:strip)
+  faculty_names.map do |name|
+    next if name.empty?
+    slug = slugify_faculty(name)
+    {
+      'name' => name,
+      'slug' => slug,
+      'url' => "https://kevinzhuang01.github.io/faculty_2025/profiles/#{slug}/"
+    }
+  end.compact
+end
+
 def csv_to_profiles
   csv_file = '_data/profiles.csv'
   profiles_dir = '_profiles'
@@ -41,6 +60,9 @@ def csv_to_profiles
     image_file_path = "assets/students_fac_pictures/#{image_filename}"
     image_path = File.exist?(image_file_path) ? "/assets/students_fac_pictures/#{image_filename}" : nil
     
+    # Process faculty
+    faculty_array = process_faculty(row['Faculty'])
+    
     # Prepare front matter
     front_matter = {
       'layout' => 'profile',
@@ -64,11 +86,12 @@ def csv_to_profiles
       'has_published' => row['Have you published any research or worked on research/technical projects (not a requirement)?'],
       'publications' => row['Where has your research been published or where have you conducted research/technical projects? Please include a few references, if available.'],
       'research_interests' => row['Please describe your research/academic interests.'],
-      'topical_areas' => row['Please select all the topical areas that apply to your field of study:']
+      'topical_areas' => row['Please select all the topical areas that apply to your field of study:'],
+      'faculty' => faculty_array
     }
     
     # Remove empty fields
-    front_matter.reject! { |k, v| v.nil? || v.strip.empty? }
+    front_matter.reject! { |k, v| v.nil? || (v.respond_to?(:strip) ? v.strip.empty? : v.empty?) }
     
     # Create the profile page content
     content = "---\n"

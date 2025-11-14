@@ -36,4 +36,8 @@ research_interests: I am interested in researching the roles of computer forensi
   interested in Physics, Applied mathematics as well as theoretical mathematics
 topical_areas: Applied Mathematics; Computer Science; Informatics, Analytics and Information
   Science; Visualization and Human-Computer Systems
+faculty:
+- name: MD Kabir
+  slug: md-kabir
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/md-kabir/
 ---

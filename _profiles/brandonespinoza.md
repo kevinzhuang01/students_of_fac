@@ -56,4 +56,8 @@ topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent
   Computer Science; Informatics, Analytics and Information Science; Other Computer
   and Information Sciences; Statistics and Probability; Visualization and Human-Computer
   Systems
+faculty:
+- name: Liwen Shih
+  slug: liwen-shih
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/liwen-shih/
 ---

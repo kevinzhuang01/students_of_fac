@@ -30,4 +30,8 @@ research_interests: I am interested in learning how Data Analytics and Machine L
 topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent Systems;
   Computer Science; Other Computer and Information Sciences; Visualization and Human-Computer
   Systems
+faculty:
+- name: Baboucarr Dibba
+  slug: baboucarr-dibba
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/baboucarr-dibba/
 ---

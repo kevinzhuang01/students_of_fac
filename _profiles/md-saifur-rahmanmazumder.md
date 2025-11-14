@@ -45,4 +45,8 @@ research_interests: Data Science, Machine Learning, Deep Learning, Artificial In
   Bayesian Neural Networks, Robust Modeling, Cybersecurity in Neural Network
 topical_areas: Applied Mathematics; Artificial Intelligence and Intelligent Systems;
   Health Sciences; Statistics and Probability
+faculty:
+- name: Feng Yu
+  slug: feng-yu
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/feng-yu/
 ---

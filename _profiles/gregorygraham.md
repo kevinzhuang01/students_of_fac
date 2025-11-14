@@ -34,4 +34,8 @@ research_interests: My capstone project involves working with water ecology data
   and run it through several models taken from machine learning and analytical chemistry.
   This will be used to generate meaningful statistics and predictions.
 topical_areas: Computer Science; Ecology; Statistics and Probability
+faculty:
+- name: Baboucarr Dibba
+  slug: baboucarr-dibba
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/baboucarr-dibba/
 ---

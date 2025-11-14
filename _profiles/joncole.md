@@ -36,4 +36,8 @@ topical_areas: Applied Computer Science; Applied Mathematics; Artificial Intelli
   Other Computer and Information Sciences; Other Engineering and Technologies; Other
   Medical Sciences; Performance Evaluation and Benchmarking; Statistics and Probability;
   Training; Visualization and Human-Computer Systems
+faculty:
+- name: Vijayalakshmi Saravanan
+  slug: vijayalakshmi-saravanan
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/vijayalakshmi-saravanan/
 ---

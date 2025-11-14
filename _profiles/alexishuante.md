@@ -71,4 +71,8 @@ topical_areas: Applied Computer Science; Applied Mathematics; Artificial Intelli
   Engineering; Informatics, Analytics and Information Science; Other Computer and
   Information Sciences; Other Engineering and Technologies; Performance Evaluation
   and Benchmarking; Statistics and Probability; Visualization and Human-Computer Systems
+faculty:
+- name: Mustafa Al Lail
+  slug: mustafa-al-lail
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/mustafa-al-lail/
 ---

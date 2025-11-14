@@ -82,4 +82,8 @@ topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent
   Engineering; Informatics, Analytics and Information Science; Materials Engineering;
   Performance Evaluation and Benchmarking; Statistics and Probability; Training; Visualization
   and Human-Computer Systems
+faculty:
+- name: Jinghao Yang
+  slug: jinghao-yang
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/jinghao-yang/
 ---

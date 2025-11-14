@@ -39,4 +39,8 @@ topical_areas: Applied Mathematics; Artificial Intelligence and Intelligent Syst
   Atmospheric Sciences; Climate and Global Dynamics; Condensed Matter Physics; Electrical,
   Electronic, and Information Engineering; Fluid and Plasma Physics; Geology and Solid
   Earth Sciences; Mechanical Engineering; Particle and High-Energy Physics
+faculty:
+- name: Arturo Rodriguez
+  slug: arturo-rodriguez
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/arturo-rodriguez/
 ---

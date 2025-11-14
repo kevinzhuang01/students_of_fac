@@ -61,4 +61,8 @@ research_interests: My current research interests involve type 2 diabetes/predia
   that will have an even better impact on our population.
 topical_areas: Artificial Intelligence and Intelligent Systems; Other Biological Sciences;
   Other Medical Sciences
+faculty:
+- name: Naw Safrin Sattar
+  slug: naw-safrin-sattar
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/naw-safrin-sattar/
 ---

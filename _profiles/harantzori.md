@@ -42,4 +42,8 @@ research_interests: I'm interested in pursuing research in robotics from the con
   interesting one.
 topical_areas: Applied Mathematics; Artificial Intelligence and Intelligent Systems;
   Computer Science; Mechanical Engineering; Other Engineering and Technologies
+faculty:
+- name: Bogdan Gavrea
+  slug: bogdan-gavrea
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/bogdan-gavrea/
 ---

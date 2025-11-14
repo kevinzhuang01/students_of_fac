@@ -109,6 +109,17 @@ layout: default
   </div>
   {% endif %}
   
+  {% if page.faculty and page.faculty.size > 0 %}
+  <div class="profile-section">
+    <h3>Faculty Mentor{% if page.faculty.size > 1 %}s{% endif %}</h3>
+    <p>
+    {% for faculty_member in page.faculty %}
+      <a href="{{ faculty_member.url }}" target="_blank" rel="noopener noreferrer">{{ faculty_member.name }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    </p>
+  </div>
+  {% endif %}
+  
   <div class="profile-navigation">
     <a href="{{ '/' | relative_url }}" class="back-link">← Back to All Profiles</a>
   </div>

@@ -34,4 +34,8 @@ research_interests: AI is profoundly reshaping higher education, offering benefi
   I hope to contribute insights toward policies and practices that promote responsible
   integration of AI, preparing graduates and myself for evolving workforce demands.
 topical_areas: Mechanical Engineering
+faculty:
+- name: Ovais Khan
+  slug: ovais-khan
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/ovais-khan/
 ---

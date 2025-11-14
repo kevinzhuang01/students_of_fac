@@ -39,4 +39,8 @@ research_interests: My academic interests lie in aerospace and environmental eng
   I am genuinely passionate about applying engineering principles to areas such as
   aerodynamics and propulsion, while also focusing on reducing environmental impact.
 topical_areas: Applied Mathematics; Computer Science; Other Engineering and Technologies
+faculty:
+- name: Suzan Anwar
+  slug: suzan-anwar
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/suzan-anwar/
 ---

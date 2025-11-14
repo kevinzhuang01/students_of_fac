@@ -42,4 +42,8 @@ research_interests: I'm very interested in the ways that chemistry, biology, and
 topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent Systems;
   Biochemistry and Molecular Biology; Computer Science; Informatics, Analytics and
   Information Science
+faculty:
+- name: Kedan He
+  slug: kedan-he
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/kedan-he/
 ---

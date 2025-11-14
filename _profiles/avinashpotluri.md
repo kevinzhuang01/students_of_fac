@@ -69,4 +69,8 @@ research_interests: My research areas include computational fluid dynamics (CFD)
   problem-solving skills. My general goal is to create hybrid CFD–AI methods for scientific
   discovery while being an active participant in education in computational mechanics.
 topical_areas: Applied Mathematics; Mechanical Engineering
+faculty:
+- name: Arturo Rodriguez
+  slug: arturo-rodriguez
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/arturo-rodriguez/
 ---

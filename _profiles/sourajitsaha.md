@@ -78,4 +78,8 @@ research_interests: My research lies at the intersection of computer vision, mul
 topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent Systems;
   Computer Science; Electrical, Electronic, and Information Engineering; Informatics,
   Analytics and Information Science; Visualization and Human-Computer Systems
+faculty:
+- name: Tejas Gokhale
+  slug: tejas-gokhale
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/tejas-gokhale/
 ---

@@ -44,4 +44,8 @@ research_interests: My research focuses on interdisciplinary engineering educati
   understand student course-taking pathways and equity in engineering.
 topical_areas: Computer Science; Educational Sciences; Electrical, Electronic, and
   Information Engineering
+faculty:
+- name: Siqing Wei
+  slug: siqing-wei
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/siqing-wei/
 ---

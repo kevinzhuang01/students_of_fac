@@ -30,4 +30,8 @@ research_interests: My academic interests focus on artificial intelligence, mach
 topical_areas: Applied Computer Science; Applied Mathematics; Basic Medicine; Chemical
   Engineering; Mechanical Engineering; Other Computer and Information Sciences; Statistics
   and Probability; Training
+faculty:
+- name: Jinghao Yang
+  slug: jinghao-yang
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/jinghao-yang/
 ---

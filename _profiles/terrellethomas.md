@@ -33,4 +33,8 @@ coursework: Data Structures Objected-Orientated Programming
 has_published: 'No'
 research_interests: Cybersecurity AI
 topical_areas: Computer Science
+faculty:
+- name: Hongmei Chi
+  slug: hongmei-chi
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/hongmei-chi/
 ---

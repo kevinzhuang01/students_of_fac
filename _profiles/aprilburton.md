@@ -39,4 +39,8 @@ publications: Within my doctoral program, my advisor collaboration was focused o
   researching STEM experiences in the K-12 environment.
 research_interests: Blended Learning, Teacher Professional Development, STEM
 topical_areas: Educational Sciences; Other Computer and Information Sciences; Training
+faculty:
+- name: Dazhi Yang
+  slug: dazhi-yang
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/dazhi-yang/
 ---

@@ -36,4 +36,8 @@ research_interests: My research interest is in numerical simulation of phase cha
   improve the accuracy of modeling the complex processes and defects that occur during
   additive manufacturing.
 topical_areas: Fluid and Plasma Physics; Mechanical Engineering
+faculty:
+- name: Amneet Pal Bhalla
+  slug: amneet-pal-bhalla
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/amneet-pal-bhalla/
 ---

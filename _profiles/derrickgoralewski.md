@@ -18,4 +18,8 @@ has_published: 'No'
 research_interests: I would like to pioneer the video games industry raising the standards.
 topical_areas: Computer Science; Informatics, Analytics and Information Science; Other
   Computer and Information Sciences
+faculty:
+- name: Sabrina Perry
+  slug: sabrina-perry
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/sabrina-perry/
 ---

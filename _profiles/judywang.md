@@ -30,4 +30,8 @@ publications: 'iScience - Cell Press: https://pubmed.ncbi.nlm.nih.gov/36945578/'
 research_interests: Computational biology, molecular biology, bioinformatics
 topical_areas: Biochemistry and Molecular Biology; Cell Biology; Computer Science;
   Ecology; Other Biological Sciences
+faculty:
+- name: Hongmei Chi
+  slug: hongmei-chi
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/hongmei-chi/
 ---

@@ -37,4 +37,8 @@ research_interests: My research interests include machine learning, high-perform
 topical_areas: Applied Mathematics; Artificial Intelligence and Intelligent Systems;
   Mechanical Engineering; Other Computer and Information Sciences; Other Engineering
   and Technologies
+faculty:
+- name: Augustine Twumasi
+  slug: augustine-twumasi
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/augustine-twumasi/
 ---

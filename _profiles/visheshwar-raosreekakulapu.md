@@ -72,4 +72,8 @@ research_interests: My research interests lie at the intersection of Artificial 
   across computational and applied domains.
 topical_areas: Applied Computer Science; Artificial Intelligence and Intelligent Systems;
   Computer Science; Electrical, Electronic, and Information Engineering; Medical Engineering
+faculty:
+- name: Hailong Jiang
+  slug: hailong-jiang
+  url: https://kevinzhuang01.github.io/faculty_2025/profiles/hailong-jiang/
 ---
